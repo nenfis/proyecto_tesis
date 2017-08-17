@@ -1,0 +1,45 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.appssb.avisos.RegistrarEquiposFragment">
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRO DE EQUIPO"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+
+
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Equipo Registrado para la cuenta:"
+            android:textColor="@android:color/white" />
+    </TableRow>
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/registrarEmailDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            />
+
+    </TableRow>
+
+<TextView
+    android:id="@+id/avisoRegistroEquipo"
+    android:textColor="@color/colorWhite"
+    android:text="En este equipo solo se reciben notificaciones de la cuenta registrada"/>
+
+
+
+</TableLayout>

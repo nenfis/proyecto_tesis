@@ -1,0 +1,183 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appssb.avisos.PlaniOrdenesFragment">
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEGUIMIENTO A ORDENES:"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="ID:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/textId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="ESTADO:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/textEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+             />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="FECHA APERTURA:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/textFechaApertura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="PLANIFICADOR:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/textPlanificador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+    </TableRow>
+
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="EJECUTOR:"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/spinnerCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:spinnerMode="dialog"/>
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="INSTALACIÓN:"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/spinnerInstalacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:spinnerMode="dialog"/>
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="DESCRIPCIÓN:"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:layout_column="1"
+            android:id="@+id/editDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="FECHA CIERRE:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/textFechaCierrre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+             />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="REPORTE:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/textReporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+             />
+
+    </TableRow>
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ORDENES CREADAS"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+
+    <ListView
+        android:id="@+id/listV_Ordenes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</TableLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Modulos">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_action_profile"
+                android:title="@string/menu_profile" />
+            <item
+                android:id="@+id/nav_ordenes"
+                android:icon="@drawable/ic_action_orden"
+                android:title="@string/menu_ordenes" />
+        </menu>
+    </item>
+    <item android:title="App Actividades">
+    <menu>
+        <item
+            android:id="@+id/nav_registrardevice"
+            android:icon="@drawable/ic_action_registrardevice"
+            android:title="@string/menu_registrardevice" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_salir"
+            android:title="@string/menu_salir" />
+    </menu>
+</item>
+</menu>

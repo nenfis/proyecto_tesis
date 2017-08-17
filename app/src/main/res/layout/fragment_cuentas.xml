@@ -1,0 +1,73 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appssb.avisos.UsuariosFragment">
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRO DE CUENTAS"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+
+
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Correo:"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:layout_column="1"
+            android:id="@+id/editCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Ingrese el correo" />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Contraseña:"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:layout_column="1"
+            android:id="@+id/editPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Ingrese la contraseña" />
+
+    </TableRow>
+
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CUENTAS INGRESADAS"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+
+
+    <ListView
+        android:id="@+id/listV_cuentas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</TableLayout>

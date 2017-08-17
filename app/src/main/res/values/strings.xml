@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Avisos</string>
+    <string name="email_pista">Correo</string>
+    <string name="password_pista">Contraseña</string>
+    <string name="login_button">INGRESAR</string>
+    <string name="Registrar">Registrar</string>
+    <string name="no_text"> </string>
+    <string name="Boton_Registrar">Registrar</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="title_activity_profile">Perfil de Usuario</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_instalaciones">Instalaciones</string>
+    <string name="menu_cuentas">Cuentas</string>
+    <string name="menu_usuarios">Usuarios</string>
+    <string name="menu_ordenes">Ordenes</string>
+    <string name="menu_actualizacion">Actualización</string>
+    <string name="menu_registrardevice">Registrar Equipo</string>
+    <string name="menu_salir">Salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="profile_columnas">Columnas</string>
+    <string name="profile_valores">Valores</string>
+
+    <string name="save_edit">Guardar</string>
+
+    <array name="tipos">
+        <item name="administrador">Administrador</item>
+        <item name="planificador">Planificador</item>
+        <item name="ejecutor">Ejecutor</item>
+    </array>
+
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_aceptar"
+        android:title="Aceptar"
+        android:icon="@drawable/ic_action_iniciaractividad"
+        app:showAsAction="always"/>
+    <item android:id="@+id/menu_actualizar"
+        android:title="Actualizar"
+        android:icon="@drawable/ic_action_editar"
+        app:showAsAction="always"/>
+    <item android:id="@+id/menu_reportar"
+        android:title="Reportar"
+        android:icon="@drawable/ic_action_reportar"
+        app:showAsAction="always"/>
+</menu>

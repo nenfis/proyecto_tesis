@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "856000731643",
+    "firebase_url": "https://appavisosnavi.firebaseio.com",
+    "project_id": "appavisosnavi",
+    "storage_bucket": "appavisosnavi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856000731643:android:d19ba03650d7b656",
+        "android_client_info": {
+          "package_name": "com.appssb.avisos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856000731643-gm2m958lte8j3k6il5ta9bdvhlevofv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMNVc5SdVH8Gp1hpG8JYhZmp2rE6R6D6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

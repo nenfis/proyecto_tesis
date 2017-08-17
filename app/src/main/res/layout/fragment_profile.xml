@@ -1,0 +1,57 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.appssb.avisos.ProfileFragment">
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USUARIO CONECTADO:"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/textEmailConectado"
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UID:"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/textUidConectado"
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VERSIÓN DE LA APLICACIÓN:"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/textVerApp"
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"/>
+    </TableRow>
+
+</TableLayout>

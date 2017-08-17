@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp"
+    android:background="@color/colorPrimary"
+    tools:context="com.appssb.avisos.LoginActivity">
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACCESO A LA APLICACIÓN"
+            android:textColor="@color/colorWhite"/>
+
+    </TableRow>
+
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Correo:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/TextCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Usuario:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/TextUsuName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Tipo:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/TextTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Contraseña:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/TextPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+    </TableRow>
+
+    <TableRow android:background="@color/colorPrimary">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Contraseña:"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:layout_column="1"
+            android:id="@+id/TextPassConfir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:text="@string/login_button"
+        android:paddingBottom="@dimen/_16sdp"
+        android:paddingTop="@dimen/_16sdp"
+
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELECCIONE LA CUENTA DE ACCESO"
+            android:textColor="@color/colorWhite"/>
+
+    </TableRow>
+
+
+
+    <ListView
+        android:id="@+id/listV_usuarioslogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</TableLayout>
